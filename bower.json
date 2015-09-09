@@ -1,0 +1,21 @@
+{
+  "name": "react.js-demo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Knorcedger/react.js-demo",
+  "authors": [
+    "Knorcedger"
+  ],
+  "description": "Check package.json :P",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react-router": "~0.13.3"
+  }
+}

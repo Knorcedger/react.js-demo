@@ -1,0 +1,43 @@
+{
+  "name": "react.js-demo",
+  "version": "0.0.1",
+  "description": "A demo project to test react.js",
+  "main": "gulpFile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "bower": "^1.5.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "browser-sync": "^2.9.3"
+  },
+  "scripts": {
+    "test": "gulp run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Knorcedger/react.js-demo.git"
+  },
+  "keywords": [
+    "react.js",
+    "flux",
+    "git",
+    "javascript"
+  ],
+  "author": "Knorcedger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knorcedger/react.js-demo/issues"
+  },
+  "homepage": "https://github.com/Knorcedger/react.js-demo",
+  "config": {
+    "bower_directory": "lib",
+    "bower_storage__cache": "~/.bower"
+  },
+  "scripts": {
+     "postinstall": "bower install -p"
+  }
+}
